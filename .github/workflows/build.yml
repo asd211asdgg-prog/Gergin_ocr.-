@@ -16,7 +16,7 @@ jobs:
           gradle-version: "8.9"
       - name: Unpack project and add model
         run: |
-          unzip -o project.zip -d app_project
+          unzip -o project2.zip -d app_project
           cp best.tflite app_project/app/src/main/assets/best.tflite
           cp labels.txt app_project/app/src/main/assets/labels.txt
       - name: Build
